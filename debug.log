@@ -1,0 +1,39 @@
+[0731/183957:ERROR:network_change_notifier_win.cc(111)] WSALookupServiceBegin failed with: 8
+[0731/184001:INFO:CONSOLE(0)] "The page at about:blank displayed insecure content from launcher:javascriptReady.
+," source: (1)
+[0731/184211:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0731/184211:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0731/184312:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0731/184312:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0731/184514:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0731/184514:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0801/075828:ERROR:network_change_notifier_win.cc(111)] WSALookupServiceBegin failed with: 8
+[0801/075833:INFO:CONSOLE(0)] "The page at about:blank displayed insecure content from launcher:javascriptReady.
+," source: (1)
+[0801/080044:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0801/080044:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0801/080144:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0801/080144:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0806/183835:ERROR:network_change_notifier_win.cc(111)] WSALookupServiceBegin failed with: 8
+[0806/183840:INFO:CONSOLE(0)] "The page at about:blank displayed insecure content from launcher:javascriptReady.
+," source: (1)
+[0806/184048:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0806/184048:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0806/184148:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0806/184148:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0806/184357:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0806/184357:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0806/203310:ERROR:network_change_notifier_win.cc(111)] WSALookupServiceBegin failed with: 8
+[0806/203315:INFO:CONSOLE(0)] "The page at about:blank displayed insecure content from launcher:javascriptReady.
+," source: (1)
+[0806/223415:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0806/223415:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0807/085853:ERROR:network_change_notifier_win.cc(111)] WSALookupServiceBegin failed with: 8
+[0807/085858:INFO:CONSOLE(0)] "The page at about:blank displayed insecure content from launcher:javascriptReady.
+," source: (1)
+[0807/090300:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0807/090300:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0807/090300:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0807/090300:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR
+[0807/090411:WARNING:net_errors_win.cc(114)] Unknown error 64 mapped to net::ERR_FAILED
+[0807/090411:WARNING:nss_ssl_util.cc(124)] MapErrorToNSS -2 mapped to PR_UNKNOWN_ERROR

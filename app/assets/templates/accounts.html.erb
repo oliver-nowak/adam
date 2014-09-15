@@ -1,0 +1,55 @@
+<h1>The Account View!</h1>
+<ul>
+  <li ng-repeat="foo in bars">
+    {{foo}}
+  </li>
+</ul>
+
+
+<div>
+  <form class="form-horizontal" role="form" ng-submit="processForm()">
+    <div class="form-group">
+      <label for="inputKeyId" class="col-sm-2 control-label">Key ID</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="inputKeyId" placeholder="Key ID" required="true" ng-model="accountProfile.keyID">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputVCode" class="col-sm-2 control-label">VCode</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="inputVCode" placeholder="VCode" required="true" ng-model="accountProfile.vcode">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Save ?
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Load</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<table class="table table-striped">
+  <tr>
+    <th>Character Name</th>
+    <th>Character ID</th>
+    <th>Corporation Name</th>
+  </tr>
+  <tr ng-repeat="char in accountProfile.characters">
+    <td>{{char.character_name}}</td>
+    <td>{{char.character_id}}</td>
+    <td>{{char.corporation_name}}</td>
+  </tr>
+</table>
+
+<pre>
+  {{ accountProfile }}
+</pre>

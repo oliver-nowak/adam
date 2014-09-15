@@ -1,0 +1,17 @@
+{
+  "name": "adam",
+  "lib": {
+    "name": "bower-rails generated lib assets",
+    "dependencies": {
+      "angular": "latest",
+      "angular-route": "latest"
+    }
+  },
+  "vendor": {
+    "name": "bower-rails generated vendor assets",
+    "dependencies": {}
+  },
+  "dependencies": {
+    "angular-x2js": "~0.1.1"
+  }
+}

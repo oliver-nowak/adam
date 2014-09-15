@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  key: 1
+  vcode: MyString
+  access_mask: 1
+  type: 
+  expires: MyString
+  character_id: 1
+  character_name: MyString
+  corporation_id: 1
+  corporation_name: MyString
+  alliance_id: 1
+  alliance_name: MyString
+  faction_id: 1
+  faction_name: MyString
+
+two:
+  key: 1
+  vcode: MyString
+  access_mask: 1
+  type: 
+  expires: MyString
+  character_id: 1
+  character_name: MyString
+  corporation_id: 1
+  corporation_name: MyString
+  alliance_id: 1
+  alliance_name: MyString
+  faction_id: 1
+  faction_name: MyString
