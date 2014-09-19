@@ -7,6 +7,14 @@ var CharacterData = function() {
     alliance_id:null,
     alliance_name:null,
     faction_id:null,
-    faction_name:null
+    faction_name:null,
+    dob:null,
+    race:null,
+    bloodline:null,
+    ancestry:null,
+    gender:null,
+    clone_name:null,
+    clone_skill_points:null,
+    balance:null
   }
 };

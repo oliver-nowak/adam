@@ -13,6 +13,11 @@ angular
             templateUrl: 'accounts.html',
             controller: 'AccountsCtrl',
             location: 'accounts'
+          })
+          .when('/characters', {
+            templateUrl: 'character.html',
+            controller: 'CharacterCtrl',
+            location: 'character'
           });
       $locationProvider.html5Mode(true);
     });

@@ -1,0 +1,15 @@
+<h1>The Character View!</h1>
+<ul>
+  <li ng-repeat="foo in bars">
+    {{foo}}
+  </li>
+</ul>
+
+<div class="col-sm-2">
+  <select data-ng-model="selectedPilot" class="form-control selected_cap" ng-change="choosePilot()">
+    <option value="default">Select A Capsuleer</option>
+    <option ng-repeat="char in $root.accountProfile.characters">{{char.character_name}}</option>
+  </select>
+</div>
+
+<!--<pre>{{selectedPilot}}</pre>-->

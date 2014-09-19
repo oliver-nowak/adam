@@ -1,12 +1,12 @@
 angular.module('AngularRails')
-  .controller('AccountsCtrl', ['$scope', '$http', function ($scope, $http) {
+  .controller('AccountsCtrl', ['$scope', '$http', '$rootScope', function ($scope, $http, $rootScope) {
       $scope.bars = ['Who', 'Foo', 'Dat', 'Ham', 'At', 'Me???'];
 
-      $scope.accountProfile = new AccountProfile();
-
-      $scope.getAccountProfile = function() {
-        return $scope.accountProfile;
-      };
+      if ($rootScope.accountProfile == undefined) {
+        $scope.accountProfile = new AccountProfile();
+      } else {
+        $scope.accountProfile = $rootScope.accountProfile;
+      }
 
       $scope.processForm = function() {
         $http({
@@ -53,6 +53,9 @@ angular.module('AngularRails')
               });
 
               $scope.accountProfile.characters = charArray;
+
+              // update rootscope var
+              $rootScope.accountProfile = $scope.accountProfile;
             });
       };
   }]);
