@@ -36,7 +36,6 @@ angular.module('AngularRails')
               $scope.accountProfile.expires     = data['eveapi']['result']['key']['expires'];
               $scope.accountProfile.type        = data['eveapi']['result']['key']['type'];
               var charRowData = data['eveapi']['result']['key']['rowset']['row'];
-              var charArray = [];
 
               charRowData.forEach(function(charData){
                 var character = new CharacterData();
@@ -49,10 +48,8 @@ angular.module('AngularRails')
                 character["faction_id"] = charData["factionID"];
                 character["faction_name"] = charData["factionName"];
 
-                charArray.push(character);
+                $scope.accountProfile.characters[character["character_name"]] = character;
               });
-
-              $scope.accountProfile.characters = charArray;
 
               // update rootscope var
               $rootScope.accountProfile = $scope.accountProfile;

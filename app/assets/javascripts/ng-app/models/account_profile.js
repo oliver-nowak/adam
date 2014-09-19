@@ -5,6 +5,6 @@ var AccountProfile = function() {
     access_mask:null,
     type:null,
     expires:null,
-    characters: []
+    characters: {}
   }
 };
